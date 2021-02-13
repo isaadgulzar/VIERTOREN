@@ -66,3 +66,7 @@ body, html {
   from {height: 150px;}
   to {height: 0;}
 }
+
+.bg-lightcyan {
+    background: rgba(0, 154, 168,10%);
+}
