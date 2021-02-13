@@ -44,3 +44,25 @@ body, html {
     opacity: 1; 
     color: #009AA8;
   }
+#MobileNav {
+    background: #fff;
+    overflow: hidden;
+}
+.animation-in{
+    height: 0;
+    animation: slide .7s ease-in-out forwards;
+}
+
+@keyframes slide {
+  from {height: 0;}
+  to {height: 150px;}
+}
+.animation-out{
+    height: auto;
+    animation: slide-out .7s ease-in-out forwards;
+}
+
+@keyframes slide-out {
+  from {height: 150px;}
+  to {height: 0;}
+}

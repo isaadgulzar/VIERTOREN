@@ -1,13 +1,13 @@
 // Navbar 
 function toggleNavOpen() {
-    console.log("sck");
-    $('#MobileNav').removeClass("hidden");
+    $('#MobileNav').addClass("animation-in");
+    $('#MobileNav').removeClass("animation-out");
     $('#closeNavIcon').removeClass("hidden");
     $('#openNavIcon').addClass("hidden");
 }
 function toggleNavClose() {
-    console.log("sck");
-    $('#MobileNav').addClass('hidden');
+    $('#MobileNav').addClass("animation-out");
+    $('#MobileNav').removeClass("animation-in");
     $('#closeNavIcon').addClass('hidden');
     $('#openNavIcon').removeClass("hidden");
 }
