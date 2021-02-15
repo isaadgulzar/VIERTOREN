@@ -55,7 +55,7 @@ body, html {
 
 @keyframes slide {
   from {height: 0;}
-  to {height: 150px;}
+  to {height: 180px;}
 }
 .animation-out{
     height: auto;
@@ -63,10 +63,43 @@ body, html {
 }
 
 @keyframes slide-out {
-  from {height: 150px;}
+  from {height: 180px;}
   to {height: 0;}
 }
 
 .bg-lightcyan {
     background: rgba(0, 154, 168,10%);
+}
+
+/* Offer Page  */
+#tabs-id li.active{
+    background: #7BA02D !important;
+}
+
+.plus {
+    transform: rotate(0deg);
+    animation: rotate-45 0.2s ease-in-out forwards;
+}
+li.bg-green .plus {
+    animation: rotate45 0.2s ease-in-out forwards;
+}
+@keyframes rotate45 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(45deg);
+    }
+}
+.togglePlus {
+    transform: rotate(45deg);
+    animation: rotate-45 0.2s ease-in-out forwards;
+}
+@keyframes rotate-45 {
+    from {
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
