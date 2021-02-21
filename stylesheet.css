@@ -19,6 +19,9 @@ body, html {
 .border-green {
     border-color: #7BA02D !important;
 }
+.border-blue {
+    border-color: #009AA8 !important;
+}
 .text-blue,.active {
     color: #009AA8 !important;
 }
@@ -26,7 +29,7 @@ body, html {
     background: #009AA8 !important;
 }
 .slick-dots {
-    bottom: 120px;
+    bottom: -90px;
     padding: 6px;
     width: auto;
     margin-left: 70px;
@@ -44,6 +47,31 @@ body, html {
     opacity: 1; 
     color: #009AA8;
   }
+
+@media screen and (max-width:600px) {
+    .slick-dots {
+        bottom: 40px;
+        padding: 6px;
+        width: auto;
+        margin-left: 10px;
+    }
+} 
+@media screen and (min-width:600px) and (max-width:1024px) {
+    .slick-dots {
+        bottom: -100px;
+        padding: 6px;
+        width: auto;
+        margin-left: 60px;
+    }
+} 
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .slick-dots {
+        bottom: 40px;
+        padding: 6px;
+        width: auto;
+        margin-left: 10px;
+    }
+} 
 #MobileNav {
     background: #fff;
     overflow: hidden;
@@ -102,4 +130,11 @@ li.bg-green .plus {
     to {
         transform: rotate(0deg);
     }
+}
+
+/* News Page  */
+.custom-shadow {
+    -webkit-box-shadow: 0px -2px 7.5px 6px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px -2px 7.5px 6px rgba(0,0,0,0.25);
+    box-shadow: 0px -2px 7.5px 6px rgba(0,0,0,0.25);
 }
