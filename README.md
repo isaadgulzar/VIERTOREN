@@ -1,12 +1,12 @@
 # VIERTOREN
-News Page is live at: https://saadgulzar.tech/VIERTOREN/news.html
+News Deatil Page is live at: https://saadgulzar.tech/VIERTOREN/news.html
 
 Contact Page is live at: https://saadgulzar.tech/VIERTOREN/contact.html
 
-Contact Page is live at: https://saadgulzar.tech/VIERTOREN/offer.html
+Offer Page is live at: https://saadgulzar.tech/VIERTOREN/offer.html
 
-Contact Page is live at: https://saadgulzar.tech/VIERTOREN/index.html
+Home Page is live at: https://saadgulzar.tech/VIERTOREN/index.html
 
-Contact Page is live at: https://saadgulzar.tech/VIERTOREN/all-news.html
+News Page is live at: https://saadgulzar.tech/VIERTOREN/all-news.html
 
-Contact Page is live at: https://saadgulzar.tech/VIERTOREN/about-us.html
+About Us Page is live at: https://saadgulzar.tech/VIERTOREN/about-us.html
